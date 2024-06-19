@@ -314,6 +314,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
 }
 
+/* Popup styles */
 .work-item {
   position: relative;
   display: inline-block;
@@ -327,7 +328,6 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 8px;
 }
 
-/* Estilos para el popup overlay */
 .popup-overlay {
   display: none;
   position: fixed;
@@ -338,8 +338,31 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.7);
   z-index: 1000;
 }
+.popup-content img {
+  max-width: 30%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  display: block; /* Para evitar espacios no deseados alrededor de las imágenes */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  margin-bottom: 10px; /* Espacio entre imágenes, si es necesario */
+}
+.additional-media-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap; /* Permitir que el contenido se ajuste en varias líneas */
+}
 
-/* Estilos para el contenido del popup */
+.additional-image, .additional-video {
+  max-width: 50%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.additional-video {
+  max-height: 300px; /* Ajusta el tamaño máximo del video */
+}
 .popup-content {
   position: absolute;
   top: 50%;
@@ -348,29 +371,15 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   z-index: 1001;
 }
-
-/* Estilos para imágenes dentro del contenido del popup */
-.popup-content img {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-  border-radius: 8px;
+.popup-content h3 {
+  margin-top: 0;
 }
 
-/* Estilos específicos para imágenes adicionales dentro del popup */
-.popup-content .additional-image {
-  width: 30%; /* Ajusta el ancho según sea necesario */
-  height: auto;
-  margin-top: 10px;
-  border-radius: 8px;
-}
-
-/* Estilos para el botón de cierre del popup */
 .popup-close {
   position: absolute;
   top: 10px;
@@ -379,8 +388,6 @@ h1, h2, h3, h4, h5, h6, figure {
   cursor: pointer;
   color: #333;
 }
-
-/* Regla .info - Revisar relevancia y ubicación */
 .info {
   margin: 0;
   padding: 0;
