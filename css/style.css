@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
 }
-/* Popup styles */
+
 .work-item {
   position: relative;
   display: inline-block;
@@ -327,6 +327,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 8px;
 }
 
+/* Estilos para el popup overlay */
 .popup-overlay {
   display: none;
   position: fixed;
@@ -338,6 +339,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 1000;
 }
 
+/* Estilos para el contenido del popup */
 .popup-content {
   position: absolute;
   top: 50%;
@@ -352,10 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 1001;
 }
 
-.popup-content h3 {
-  margin-top: 0;
-}
-
+/* Estilos para imágenes dentro del contenido del popup */
 .popup-content img {
   width: 100%;
   height: auto;
@@ -363,6 +362,15 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 8px;
 }
 
+/* Estilos específicos para imágenes adicionales dentro del popup */
+.popup-content .additional-image {
+  width: 30%; /* Ajusta el ancho según sea necesario */
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Estilos para el botón de cierre del popup */
 .popup-close {
   position: absolute;
   top: 10px;
@@ -371,6 +379,8 @@ h1, h2, h3, h4, h5, h6, figure {
   cursor: pointer;
   color: #333;
 }
+
+/* Regla .info - Revisar relevancia y ubicación */
 .info {
   margin: 0;
   padding: 0;

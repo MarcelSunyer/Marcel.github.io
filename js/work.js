@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const works = [
         {
             title: 'Trabajo 1',
-            image: 'images/work1.jpg',
+            image: 'images/Alien_Extraction.jpg',
             description: 'Descripción del Trabajo 1',
-            additionalImages: ['images/work1_1.jpg', 'images/work1_2.jpg'],
+            additionalImages: ['images/ASD.jpg', 'images/GameLogo.jpg'],
             link: 'https://link1.com'
         },
         {
