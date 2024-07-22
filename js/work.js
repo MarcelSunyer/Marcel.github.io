@@ -1,24 +1,74 @@
 const works = [
     {
-        title: 'Trabajo 1',
+        title: 'Alien Extraction',
         image: 'images/Alien_Extraction.jpg',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
             { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
         ],
-        link: 'https://link1.com'
+        link: 'https://clapcom-studios.github.io/Website/'
     },
     {
-        title: 'Trabajo 2',
-        image: 'images/work2.jpg',
-        description: 'Descripción del Trabajo 2',
+        title: 'Amarillo Engine',
+        image: 'images/Alien_Extraction.jpg',
+        description: 'Descripción del Trabajo 1',
         additionalMedia: [
-            { type: 'image', src: 'images/work2_1.jpg' },
-            { type: 'image', src: 'images/work2_2.jpg' }
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
         ],
-        link: 'https://link2.com'
-    }
+        link: 'https://marcelsunyer.github.io/AmarilloEngine/'
+    },
+    {
+        title: 'BB_Glotom',
+        image: 'images/Alien_Extraction.jpg',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://francesctr4.github.io/Nexus-Studios/'
+    },
+    {
+        title: 'Dragged Of Time',
+        image: 'images/Alien_Extraction.jpg',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://francesctr4.github.io/Nexus-Studios/'
+    },    
+    {
+        title: 'Guerrilla War',
+        image: 'images/Alien_Extraction.jpg',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://github.com/ericlr1/Proyecto_1_Guerrilla-War'
+    },    
+    {
+        title: 'Easing and Splines for UI Animations',
+        image: 'images/Alien_Extraction.jpg',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://github.com/MarcelSunyer/Easing-and-Splines-for-UI-Animations'
+    },
+    {
+        title: 'VR: Escape Room',
+        image: 'images/Alien_Extraction.jpg',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://github.com/francesctr4/EscapeRoomVR'
+    },
 ];
 document.addEventListener('DOMContentLoaded', () => {
     const workContainer = document.getElementById('fh5co-work');
