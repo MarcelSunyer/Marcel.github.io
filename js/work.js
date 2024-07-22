@@ -11,10 +11,10 @@ const works = [
     },
     {
         title: 'Amarillo Engine',
-        image: 'images/Alien_Extraction.jpg',
+        image: 'images/Amarillo Logo.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
-            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'image', src: 'images/Own_Engine.png'},
             { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
         ],
         link: 'https://marcelsunyer.github.io/AmarilloEngine/'

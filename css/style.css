@@ -352,12 +352,19 @@ h1, h2, h3, h4, h5, h6, figure {
   flex-wrap: wrap; /* Permitir que el contenido se ajuste en varias líneas */
 }
 
-.additional-image, .additional-video {
-  max-width: 50%;
-  height: auto;
+.additional-image{
+  width: 2322px; /* Establece el ancho fijo */
+  height: 300px; /* Establece el alto fijo */
+  margin: 0px;
+  border-radius: 10px;
+  object-fit: contain; 
+}
+.additional-video {
+  width: 300px; /* Establece el ancho fijo */
+  height: 150px; /* Establece el alto fijo */
   margin: 10px;
   border-radius: 10px;
-  object-fit: contain;
+  object-fit: contain; 
 }
 
 .additional-video {
