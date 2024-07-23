@@ -20,18 +20,8 @@ const works = [
         link: 'https://marcelsunyer.github.io/AmarilloEngine/'
     },
     {
-        title: 'BB_Glotom',
-        image: 'images/Alien_Extraction.jpg',
-        description: 'Descripción del Trabajo 1',
-        additionalMedia: [
-            { type: 'image', src: 'images/Alien_Extraction.jpg' },
-            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
-        ],
-        link: 'https://francesctr4.github.io/Nexus-Studios/'
-    },
-    {
         title: 'Dragged Of Time',
-        image: 'images/Alien_Extraction.jpg',
+        image: 'images/Dragged_Off_Time.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
@@ -41,14 +31,14 @@ const works = [
     },    
     {
         title: 'Guerrilla War',
-        image: 'images/Alien_Extraction.jpg',
+        image: 'images/GuerrillaWar.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
             { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
         ],
         link: 'https://github.com/ericlr1/Proyecto_1_Guerrilla-War'
-    },    
+    }, 
     {
         title: 'Easing and Splines for UI Animations',
         image: 'images/Alien_Extraction.jpg',
@@ -69,6 +59,16 @@ const works = [
         ],
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
+    {
+        title: 'BB_Glotom',
+        image: 'images/Glotooon.png',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://francesctr4.github.io/Nexus-Studios/'
+    },   
 ];
 document.addEventListener('DOMContentLoaded', () => {
     const workContainer = document.getElementById('fh5co-work');
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="additional-media-container">
                     ${additionalMediaHTML}
                 </div>
-                <p><a href="${work.link}" target="_blank">Learn more</a></p>
+                <p><a href="${work.link}" target="_blank">Link web</a></p>
             `;
             popupOverlay.style.display = 'block';
 
