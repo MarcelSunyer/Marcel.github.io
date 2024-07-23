@@ -1,7 +1,7 @@
 const works = [
     {
         title: 'Alien Extraction',
-        image: 'images/Alien_Extraction.jpg',
+        image: 'images/Alien_Extraction.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
@@ -41,7 +41,7 @@ const works = [
     }, 
     {
         title: 'Easing and Splines for UI Animations',
-        image: 'images/Alien_Extraction.jpg',
+        image: 'images/Spline.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
@@ -51,7 +51,7 @@ const works = [
     },
     {
         title: 'VR: Escape Room',
-        image: 'images/Alien_Extraction.jpg',
+        image: 'images/Escape_Room.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
@@ -60,15 +60,15 @@ const works = [
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
     {
-        title: 'BB_Glotom',
-        image: 'images/Glotooon.png',
+        title: 'Advanced-Game-AI-Scene',
+        image: 'images/Unity_ia.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
             { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
         ],
-        link: 'https://francesctr4.github.io/Nexus-Studios/'
-    },   
+        link: 'https://github.com/francesctr4/EscapeRoomVR'
+    },
 ];
 document.addEventListener('DOMContentLoaded', () => {
     const workContainer = document.getElementById('fh5co-work');
