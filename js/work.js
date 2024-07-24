@@ -1,6 +1,6 @@
 const works = [
     {   
-        title_out : 'ClapCom: Alien Extraction',
+        title_out : 'ClapCom Studios',
         title: 'Alien Extraction',
         image: 'images/Alien_Extraction.png',
         description: 'Descripción del Trabajo 1,Descripción del Trabajo 1,Descripción del Trabajo 1,Descripción del Trabajo 1,Descripción del Trabajo 1,',
@@ -11,7 +11,7 @@ const works = [
         link: 'https://clapcom-studios.github.io/Website/'
     },
     {
-        title_out : 'Own Engine',
+        title_out : 'Custome Engine: Amarillo Engine',
         title: 'Amarillo Engine',
         image: 'images/Amarillo Logo.png',
         description: 'Descripción del Trabajo 1',
@@ -22,7 +22,7 @@ const works = [
         link: 'https://marcelsunyer.github.io/AmarilloEngine/'
     },
     {
-        title_out : '2D RPG',
+        title_out : 'Nexus Studio: 2D RPG',
         title: 'Dragged Of Time',
         image: 'images/nexus.png',
         description: 'Descripción del Trabajo 1',
@@ -33,7 +33,7 @@ const works = [
         link: 'https://francesctr4.github.io/Nexus-Studios/'
     },
     {
-        title_out : 'Guerrilla War',
+        title_out : 'Guerrilla War Tribute',
         title: 'Guerrilla War',
         image: 'images/GuerrillaWar.png',
         description: 'Descripción del Trabajo 1',
@@ -66,7 +66,7 @@ const works = [
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
     {
-        title_out : 'Advanced-Game-AI-Scene',
+        title_out : 'Advanced Game AI Scene',
         title: 'Advanced-Game-AI-Scene',
         image: 'images/Unity_ia.png',
         description: 'Descripción del Trabajo 1',
@@ -77,7 +77,7 @@ const works = [
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
     {
-        title_out : 'Bat Reverb',
+        title_out : '6a CITM GJ: Bat Reverb',
         title: 'Bat Reverb',
         image: 'images/bat.png',
         description: 'Descripción del Trabajo 1',
@@ -88,7 +88,7 @@ const works = [
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
     {
-        title_out : 'Nightmeres of the night',
+        title_out : '7a CITM GJ: Nightmeres',
         title: 'Nightmeres of the night',
         image: 'images/nigthmares.png',
         description: 'Descripción del Trabajo 1',
