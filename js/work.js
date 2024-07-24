@@ -24,7 +24,7 @@ const works = [
     {
         title_out : '2D RPG',
         title: 'Dragged Of Time',
-        image: 'images/Dragged_Off_Time.png',
+        image: 'images/nexus.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
@@ -79,7 +79,7 @@ const works = [
     {
         title_out : 'Bat Reverb',
         title: 'Bat Reverb',
-        image: 'images/Unity_ia.png',
+        image: 'images/bat.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
@@ -87,6 +87,18 @@ const works = [
         ],
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
+    {
+        title_out : 'Nightmeres of the night',
+        title: 'Nightmeres of the night',
+        image: 'images/nigthmares.png',
+        description: 'Descripción del Trabajo 1',
+        additionalMedia: [
+            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+        ],
+        link: 'https://github.com/francesctr4/EscapeRoomVR'
+    },
+    
 ];
 document.addEventListener('DOMContentLoaded', () => {
     const workContainer = document.getElementById('fh5co-work');
