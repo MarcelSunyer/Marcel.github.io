@@ -44,9 +44,9 @@ const works = [
         link: 'https://github.com/ericlr1/Proyecto_1_Guerrilla-War'
     },
     {
-        title_out : 'Easing and Splines for UI Animations',
+        title_out : 'Easing and Splines Tool for c',
         title: 'Easing and Splines for UI Animations',
-        image: 'images/Spline.png',
+        image: 'images/Splines.png',
         description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
