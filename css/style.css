@@ -359,9 +359,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .popup-content {
   background: white;
   padding: 20px;
+  border-radius: 5px;
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 45%;
+  max-height: 80%;
   overflow: auto;
 }
 
@@ -373,11 +374,17 @@ h1, h2, h3, h4, h5, h6, figure {
   cursor: pointer;
 }
 
+.additional-media-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espacio entre elementos */
+}
+
 .additional-media-container img,
 .additional-media-container video {
-  max-width: 100%;
-  display: block;
-  margin: 10px 0;
+  max-width: calc(50% - 10px); /* Ajusta el tamaño para que dos elementos quepan en una fila */
+  flex: 1 1 calc(50% - 10px); /* Para asegurar que los elementos ocupen el espacio disponible */
+  margin: 5px 0;
 }
 .info {
   margin: 0;

@@ -3,9 +3,9 @@ const works = [
         title_out : 'ClapCom Studios',
         title: 'Alien Extraction',
         image: 'images/Alien_Extraction.png',
-        description: 'Descripción del Trabajo 1,Descripción del Trabajo 1,Descripción del Trabajo 1,Descripción del Trabajo 1,Descripción del Trabajo 1,',
+        description: '<b>Alien Extraction is a DIABLO-LIKE game themed in the ALIEN universe.</b><br><br>  Players will take on the role of an elite soldier sent to an alien-infested planet to clear it of all hostile forms. The action focuses on multi-level raids, where players will have to explore, fight against saga enemies, manage their resources carefully to survive and not die in their attempt to complete the mission and discover the truth.',
         additionalMedia: [
-            { type: 'image', src: 'images/Alien_Extraction.jpg' },
+            { type: 'image', src: 'images/alien.png' },
             { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
         ],
         link: 'https://clapcom-studios.github.io/Website/'
@@ -13,8 +13,7 @@ const works = [
     {
         title_out : 'Custome Engine: Amarillo Engine',
         title: 'Amarillo Engine',
-        image: 'images/Amarillo Logo.png',
-        description: 'Descripción del Trabajo 1',
+        image: 'images/Amarillo Logo.png',        description: 'Descripción del Trabajo 1',
         additionalMedia: [
             { type: 'image', src: 'images/Own_Engine.png'},
             { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
@@ -98,8 +97,8 @@ const works = [
         ],
         link: 'https://github.com/francesctr4/EscapeRoomVR'
     },
-    
 ];
+
 document.addEventListener('DOMContentLoaded', () => {
     const workContainer = document.getElementById('fh5co-work');
     const popupOverlay = document.createElement('div');
@@ -124,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const workTitle = document.createElement('p');
         workTitle.classList.add('work-title');
         workTitle.textContent = work.title_out;
-        workTitle.contentEditable = true;  // Makes the title editable
+        workTitle.contentEditable = true;  // Mantiene la funcionalidad para editar el título
         workItem.appendChild(workTitle);
 
         workContainer.appendChild(workItem);
@@ -144,8 +143,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             popupContent.innerHTML = `
                 <span class="popup-close">&times;</span>
-                <h3>${work.title}</h3>
-                <p>${work.description}</p>
+                <div>
+                    <h3 class="popup-title">${work.title}</h3>
+                    <p class="popup-description">${work.description}</p>
+                </div>
                 <div class="additional-media-container">
                     ${additionalMediaHTML}
                 </div>
