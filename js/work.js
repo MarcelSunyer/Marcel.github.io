@@ -6,7 +6,7 @@ const works = [
         description: '<b>Alien Extraction is a DIABLO-LIKE game themed in the ALIEN universe.</b><br><br>  Players will take on the role of an elite soldier sent to an alien-infested planet to clear it of all hostile forms. The action focuses on multi-level raids, where players will have to explore, fight against saga enemies, manage their resources carefully to survive and not die in their attempt to complete the mission and discover the truth.',
         additionalMedia: [
             { type: 'image', src: 'images/alien.png' },
-            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+            { type: 'video', src: 'videos/Alien_extraction_trailer.mp4' }
         ],
         link: 'https://clapcom-studios.github.io/Website/'
     },
@@ -24,10 +24,10 @@ const works = [
         title_out : 'Nexus Studio: 2D RPG',
         title: 'Dragged Of Time',
         image: 'images/nexus.png',
-        description: 'Descripción del Trabajo 1',
+        description: 'In this RPG we will play a university student who, due to the temptation of using a new super powerful AI, ends up being absorbed by the computer. The student will appear in an unknown world where he will have to find his way out.',
         additionalMedia: [
             { type: 'image', src: 'images/Alien_Extraction.jpg' },
-            { type: 'video', src: 'videos/Dragged_Off_Time.mp4' }
+            { type: 'video', src: 'videos/Dragged_Off_Time_trailer.mp4' }
         ],
         link: 'https://francesctr4.github.io/Nexus-Studios/'
     },
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const workTitle = document.createElement('p');
         workTitle.classList.add('work-title');
         workTitle.textContent = work.title_out;
-        workTitle.contentEditable = true;  // Mantiene la funcionalidad para editar el título
+        workTitle.contentEditable = true;
         workItem.appendChild(workTitle);
 
         workContainer.appendChild(workItem);
